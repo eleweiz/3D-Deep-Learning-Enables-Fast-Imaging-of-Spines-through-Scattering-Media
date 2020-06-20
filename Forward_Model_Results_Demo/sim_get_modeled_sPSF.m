@@ -2,8 +2,6 @@ function [sPSF_z ballisticPSF_z scatteredPSF_z] = sim_get_modeled_sPSF(z,sl,dx,N
     
     % excitaion resolution r_ex = 1.22 ?/NA
     NA = 0.95;
-%     lambra = .592;% [um] % the peak emission wavelength of mScarlet-I
-% %     lambra =.529;  % [um] % the peak emission wavelength of EYFP
 
     lambra = .606;% [um] % the peak emission wavelength of mScarlet-I
 %     lambra =.540;  % [um] % the peak emission wavelength of EYFP
